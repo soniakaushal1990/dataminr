@@ -1,3 +1,7 @@
+/* Sample for how can I optimize the code and make separate 
+class called task to have all the functions related to class in one place
+*/
+
 var con = require('../database');
 
 
@@ -39,4 +43,3 @@ class Tasks {
     }
 
 }
-module.exports.Tasks = Tasks
